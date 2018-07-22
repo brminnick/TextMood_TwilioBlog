@@ -10,6 +10,6 @@ namespace TextMood
 #error Missing Endpoint for the Cognitive Servce.You can locate the Azure Region on the Overview page of the TextAnalytics resource created in the Azure Portal.
         const string _cognitiveServicesEndpoint = "Your Cognitive Services Endpoint";
 
-        public static Uri BaseUri => new Uri(_cognitiveServicesEndpoint);
+        public static readonly Uri BaseUri = new Uri(_cognitiveServicesEndpoint);
     }
 }
