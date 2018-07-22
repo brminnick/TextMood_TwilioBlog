@@ -8,7 +8,7 @@ namespace TextMood
         public const string TextSentimentAPIKey = "Your API Key";
 
 #error Missing Endpoint for the Cognitive Servce.You can locate the Azure Region on the Overview page of the TextAnalytics resource created in the Azure Portal.
-        const string _cognitiveServicesEndpoint = "https://westus.api.cognitive.microsoft.com/text/analytics/v2.0";
+        const string _cognitiveServicesEndpoint = "Your Cognitive Services Enpoint";
 
         public static Uri BaseUri => new Uri(_cognitiveServicesEndpoint);
     }
