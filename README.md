@@ -46,8 +46,6 @@ Let's do this automatically for all text messages!
 
 With the power of [Twilio Webhooks](https://www.twilio.com/docs/glossary/what-is-a-webhook), we can forward all received text messages to an [Azure Function](https://azure.microsoft.com/services/functions/?WT.mc_id=none-TwilioBlog-bramin) to leverage the power of the [Sentiment Analysis API](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=none-TwilioBlog-bramin).
 
-![Architecture Diagram](https://user-images.githubusercontent.com/13558917/43020603-66513e1a-8c15-11e8-928f-878ce536fd86.png)
-
 First, we'll need a Twilio phone number.
 
 ### 1. Create a Sentiment Analysis API Key
@@ -225,7 +223,7 @@ To use the Sentiment Analysis API, we'll need to first create an API Key using t
 13. In the **Messaging** section, next to **A Message Comes In**, select **HTTP POST**
 14. In the **Manage Numbers** window, select **Save**
 
-![Messaging](https://user-images.githubusercontent.com/13558917/43050518-da109ad0-8dbe-11e8-926a-884e8585fde5.png)
+![Messaging](https://user-images.githubusercontent.com/13558917/43158699-2d545b7e-8f35-11e8-8e47-d120024aa948.png)
 
 ### 5. Send a Text
 
