@@ -8,7 +8,7 @@ In this repo, we show how to leverage [Microsoft Cognitive Services](https://azu
 
 ![Architecture](https://user-images.githubusercontent.com/13558917/43020603-66513e1a-8c15-11e8-928f-878ce536fd86.png)
 
-## Text Sentiment Analysisq
+## Text Sentiment Analysis
 
 [Azure's Sentiment Analysis](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=none-TwilioBlog-bramin) service powered by [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=none-TwilioBlog-bramin) is a REST API that allows me to upload text as a POST Request, and it uses artificial intelligence to give me a sentiment score between 0 and 1; scores close to 0 indicate negative sentiment, while scores close to 1 indicate positive sentiment.
 
