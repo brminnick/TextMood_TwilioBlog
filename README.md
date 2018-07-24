@@ -42,7 +42,7 @@ In this repo, we show how to leverage [Microsoft Cognitive Services](https://azu
 
 Let's do this automatically for all text messages!
 
-## Automatic Text Sentiment Analysis
+# Walkthrough
 
 With the power of [Twilio Webhooks](https://www.twilio.com/docs/glossary/what-is-a-webhook), we can forward all received text messages to an [Azure Function](https://azure.microsoft.com/services/functions/?WT.mc_id=none-TwilioBlog-bramin) to leverage the power of the [Sentiment Analysis API](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=none-TwilioBlog-bramin).
 
