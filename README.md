@@ -2,7 +2,7 @@
 
 Ever wondered about the mood of that text message you just received? Is it happy or angry? 
 
-In this repo, we show how to leverage [Microsoft Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=none-github-bramin), [Azure Functions](https://azure.microsoft.com/services/functions/?WT.mc_id=none-github-bramin), and [Twilio Web Hooks](https://www.twilio.com/docs/glossary/what-is-a-webhook)to automatically determine the sentiment of each text message.
+In this repo, we show how to leverage [Microsoft Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=none-github-bramin), [Azure Functions](https://azure.microsoft.com/services/functions/?WT.mc_id=none-github-bramin), and [Twilio Web Hooks](https://www.twilio.com/docs/glossary/what-is-a-webhook) to automatically determine the sentiment of each text message.
 
 ## Architecture
 
