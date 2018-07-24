@@ -58,6 +58,9 @@ To use the Sentiment Analysis API, we'll need to first create an API Key using t
 2. On the Azure Portal, select **+ Create a Resource**
 3. In the **New** window, select **AI + Machine Learning**
 4. In the **Featured** frame, select **Text Analytics**
+
+![Create Text Analytics Resource](https://user-images.githubusercontent.com/13558917/43020215-2a29cf70-8c14-11e8-8988-c281308cd45f.png)
+
 5. In the **Create** window, make the following selections
     - **Name**: TextMood
     - **Subscription**: [Select your Azure subscription]
@@ -66,14 +69,27 @@ To use the Sentiment Analysis API, we'll need to first create an API Key using t
         - This is a free tier
     - **Resource Group**: TextMood
 6. In the **Create** window, select **Create**
+
+![Create Text Analytics Resource](https://user-images.githubusercontent.com/13558917/43020216-2a3dff68-8c14-11e8-8c1d-56ac21a3b6a2.png)
+
 7. On the Azure Portal, select the bell-shaped notification icon
 8. Stand by while the **Notifications** window says **Deployment in progress...**
+
+![Deployment In Progress](https://user-images.githubusercontent.com/13558917/43020217-2a51d858-8c14-11e8-93d8-e892e5458b1f.png)
+
 9. Once the deployment has finished, on the **Notifications** window, select **Go to resource**
+
+![Deployment Completed](https://user-images.githubusercontent.com/13558917/43020218-2a669e3c-8c14-11e8-95df-619275893cc4.png)
+
 10. In the TextMood Resource page, select **Keys** and locate **KEY 1**
     - We will use this API Key when we create our Azure Function
+    
+![Keys](https://user-images.githubusercontent.com/13558917/43020219-2a7ce818-8c14-11e8-99f7-d48f15c3553a.png)
 
 11. In the TextMood Resource page, select **Overview** and locate the **Endpoint**
     - We will use this Url when we create our Azure Function
+    
+![API Endpoint](https://user-images.githubusercontent.com/13558917/43050639-5f84c6bc-8dc1-11e8-9fd3-f992efe5d12c.png)
 
 ### 2. Create an Azure Function
 
