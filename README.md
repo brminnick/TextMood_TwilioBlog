@@ -98,7 +98,7 @@ To use the Sentiment Analysis API, we'll need to first create an API Key using t
 1. Clone or download the [TextMood_TwilioBlog](https://github.com/brminnick/TextMood_TwilioBlog/tree/master)
     - To clone the repo using git, open a cmd prompt and enter the following command:
         - `git clone https://github.com/brminnick/TextMood_TwilioBlog.git`
-    -To download the repo use the following steps:
+    - To download the repo use the following steps:
         - Click the link above to navigate to the GitHub repo in your browser
         - Click Clone or Download
         - Click Download Zip
