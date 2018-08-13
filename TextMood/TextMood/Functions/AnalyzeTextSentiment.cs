@@ -18,7 +18,7 @@ namespace TextMood
             log.Info("Text Message Received");
 
             log.Info("Parsing Request Message");
-            var httpRequestBody = httpRequest.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+            var httpRequestBody = await httpRequest.Content.ReadAsStringAsync();
 
             log.Info("Creating New Text Model");
             var textMessageBody = TwilioServices.GetTextMessageBody(httpRequestBody, log);
