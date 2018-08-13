@@ -58,7 +58,7 @@ The completed solution can be found here: https://github.com/brminnick/TextMood_
 
 To use the Sentiment Analysis API, we'll need to first create an API Key using the Azure Portal.
 
-1. Navigate to the [Azure Portal](https://ms.portal.azure.com/?WT.mc_id=none-TwilioBlog-bramin)
+1. Navigate to the [Azure Portal](https://portal.azure.com/?WT.mc_id=none-TwilioBlog-bramin)
     - If you are new to Azure, use [this sign-up link](https://azure.microsoft.com/free/ai/?WT.mc_id=none-TwilioBlog-bramin) to receive a free $200 credit
 
 2. On the Azure Portal, select **+ Create a Resource**
@@ -344,7 +344,7 @@ namespace TextMood
 
 ### 4. Copy Azure Functions Url
 
-1. Navigate to the [Azure Portal](https://ms.portal.azure.com/?WT.mc_id=none-TwilioBlog-bramin)
+1. Navigate to the [Azure Portal](https://portal.azure.com/?WT.mc_id=none-TwilioBlog-bramin)
 2. On the Azure Portal, select **Resource Groups**
 3. In the **Resource Group** window, select **TextMood**
 
