@@ -2,7 +2,7 @@
 
 The other day, my manager sent me this text message: "I hope you find time to actually get your reports done today". I immediately freaked out.
 
-"Aren't the reports are due tomorrow?", I thought to myself. "Is my manager upset with me?". I needed some help, so I turned to [Azure's Sentiment Analysis](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=none-TwilioBlog-bramin) service for help.
+"Aren't the reports are due tomorrow?", I thought to myself. "Is my manager upset with me?". I needed some help, so I turned to [Azure's Sentiment Analysis](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=none-TwilioBlog-bramin) service.
 
 ## Text Sentiment Analysis
 
