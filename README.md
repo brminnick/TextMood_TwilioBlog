@@ -1,14 +1,12 @@
 # TextMood
 
-The other day, my manager sent me this text message: "I hope you find time to actually get your reports done today". I immediately freaked out.
+## Automatic Text Sentiment Analysis
 
-"Aren't the reports are due tomorrow?", I thought to myself. "Is my manager upset with me?". I needed some help, so I turned to [Azure's Sentiment Analysis](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=none-TwilioBlog-bramin) service.
+With the power of [Twilio Webhooks](https://www.twilio.com/docs/glossary/what-is-a-webhook), we can forward all received text messages to an [Azure Function](https://azure.microsoft.com/services/functions/?WT.mc_id=none-TwilioBlog-bramin) to leverage the power of the [Sentiment Analysis API](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=none-TwilioBlog-bramin).
 
-## Text Sentiment Analysis
+The completed solution can be found here: https://github.com/brminnick/TextMood_TwilioBlog
 
-[Azure's Sentiment Analysis](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=none-TwilioBlog-bramin) service, powered by [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=none-TwilioBlog-bramin), is a REST API that allows me to upload text as a POST Request, and it uses artificial intelligence to give me a sentiment score between 0 and 1; scores close to 0 indicate negative sentiment, while scores close to 1 indicate positive sentiment.
-
-I uploaded my manager's text:
+![Architecture Diagram](https://user-images.githubusercontent.com/13558917/43020603-66513e1a-8c15-11e8-928f-878ce536fd86.png)
 
 ### POST Request
 
@@ -24,8 +22,6 @@ I uploaded my manager's text:
 }
 ```
 
-And got back this response:
-
 ### Response
 
 ```json
@@ -39,20 +35,6 @@ And got back this response:
   ]
 }
 ```
-
-A score of 0.776 - my boss isn't mad at me!
-
-He knows that I've been working long hours to finish the reports, and he just wanted to ensure that I was able to complete reports on time (which were indeed due the next day, and which I did indeed finish)!
-
-Let's do this automatically for all text messages.
-
-## Automatic Text Sentiment Analysis
-
-With the power of [Twilio Webhooks](https://www.twilio.com/docs/glossary/what-is-a-webhook), we can forward all received text messages to an [Azure Function](https://azure.microsoft.com/services/functions/?WT.mc_id=none-TwilioBlog-bramin) to leverage the power of the [Sentiment Analysis API](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=none-TwilioBlog-bramin).
-
-The completed solution can be found here: https://github.com/brminnick/TextMood_TwilioBlog
-
-![Architecture Diagram](https://user-images.githubusercontent.com/13558917/43020603-66513e1a-8c15-11e8-928f-878ce536fd86.png)
 
 ### 1. Create a Sentiment Analysis API Key
 
