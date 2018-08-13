@@ -399,7 +399,7 @@ namespace TextMood
 13. In the **Messaging** section, next to **A Message Comes In**, select **HTTP POST**
 14. In the **Manage Numbers** window, select **Save**
 
-![Messaging](https://user-images.githubusercontent.com/13558917/43050518-da109ad0-8dbe-11e8-926a-884e8585fde5.png)
+![Messaging](https://user-images.githubusercontent.com/13558917/43158699-2d545b7e-8f35-11e8-8e47-d120024aa948.png)
 
 ### 6. Send a Text
 
