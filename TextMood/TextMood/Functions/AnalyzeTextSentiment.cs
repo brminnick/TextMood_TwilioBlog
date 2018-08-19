@@ -1,5 +1,4 @@
-﻿using System;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,19 +11,18 @@ namespace TextMood
     public static class AnalyzeTextSentiment
     {
         [FunctionName(nameof(AnalyzeTextSentiment))]
-        public static async Task<HttpResponseMessage> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)]HttpRequestMessage httpRequest, TraceWriter log)
+        public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Function, "post", Route = null)]HttpRequestMessage httpRequest, TraceWriter log)
         {
             log.Info("Text Message Received");
 
             log.Info("Parsing Request Message");
-            var httpRequestBody = httpRequest.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+            var httpRequestBody = await httpRequest.Content.ReadAsStringAsync().ConfigureAwait(false);
 
             log.Info("Creating New Text Model");
             var textMessageBody = TwilioServices.GetTextMessageBody(httpRequestBody, log);
 
             log.Info("Retrieving Sentiment Score");
-            var sentimentScore = await TextAnalysisServices.GetSentiment(textMessageBody) ?? -1;
+            var sentimentScore = await TextAnalysisServices.GetSentiment(textMessageBody).ConfigureAwait(false) ?? -1;
 
             var response = $"Text Sentiment: {EmojiService.GetEmoji(sentimentScore)}";
 
