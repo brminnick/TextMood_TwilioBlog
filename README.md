@@ -2,7 +2,7 @@
 
 ## Automatic Text Sentiment Analysis
 
-With the power of [Twilio Webhooks](https://www.twilio.com/docs/glossary/what-is-a-webhook), we can forward all received text messages to an [Azure Function](https://azure.microsoft.com/services/functions?WT.mc_id=TextMood_TwilioBlog-github-bramin) to leverage the power of the [Sentiment Analysis API](https://azure.microsoft.com/services/cognitive-services/text-analytics?WT.mc_id=TextMood_TwilioBlog-github-bramin).
+With the power of [Twilio Webhooks](https://www.twilio.com/docs/glossary/what-is-a-webhook), we can forward all received text messages to an [Azure Function](https://azure.microsoft.com/services/functions?WT.mc_id=textmood_twilioblog-github-bramin) to leverage the power of the [Sentiment Analysis API](https://azure.microsoft.com/services/cognitive-services/text-analytics?WT.mc_id=textmood_twilioblog-github-bramin).
 
 The completed solution can be found here: https://github.com/brminnick/TextMood
 
@@ -41,7 +41,7 @@ The completed solution can be found here: https://github.com/brminnick/TextMood
 To use the Sentiment Analysis API, we'll need to first create an API Key using the Azure Portal.
 
 1. Navigate to the [Azure Portal](https://portal.azure.com?WT.mc_id=TextMood_TwilioBlog-github-bramin)
-    - If you are new to Azure, use [this sign-up link](https://azure.microsoft.com/free/ai?WT.mc_id=TextMood_TwilioBlog-github-bramin) to receive a free $200 credit
+    - If you are new to Azure, use [this sign-up link](https://azure.microsoft.com/free/ai?WT.mc_id=textmood_twilioblog-github-bramin) to receive a free $200 credit
 
 2. On the Azure Portal, select **+ Create a Resource**
 3. In the **New** window, select **AI + Machine Learning**
@@ -65,7 +65,7 @@ To use the Sentiment Analysis API, we'll need to first create an API Key using t
 
 ### 2. Create an Azure Function
 
-[Azure Functions](https://azure.microsoft.com/services/functions?WT.mc_id=TextMood_TwilioBlog-github-bramin) are a serverless offering in Azure. In these steps, we will use Azure Functions to create a POST API.
+[Azure Functions](https://azure.microsoft.com/services/functions?WT.mc_id=textmood_twilioblog-github-bramin) are a serverless offering in Azure. In these steps, we will use Azure Functions to create a POST API.
 
 1. Clone or download the [TextMood_TwilioBlog](https://github.com/brminnick/TextMood_TwilioBlog)
     - To clone the repo using git, open a cmd prompt and enter the following command:
@@ -220,7 +220,7 @@ To use the Sentiment Analysis API, we'll need to first create an API Key using t
 
 # Resources
 
-- [Azure Sentiment Analysis](https://azure.microsoft.com/services/cognitive-services/text-analytics?WT.mc_id=TextMood_TwilioBlog-github-bramin)
-- [Azure Functions](https://azure.microsoft.com/services/functions?WT.mc_id=TextMood_TwilioBlog-github-bramin)
+- [Azure Sentiment Analysis](https://azure.microsoft.com/services/cognitive-services/text-analytics?WT.mc_id=textmood_twilioblog-github-bramin)
+- [Azure Functions](https://azure.microsoft.com/services/functions?WT.mc_id=textmood_twilioblog-github-bramin)
 - [Twilio Webhooks](https://www.twilio.com/docs/glossary/what-is-a-webhook)
-- [Cognitive Services](https://azure.microsoft.com/services/cognitive-services?WT.mc_id=TextMood_TwilioBlog-github-bramin)
+- [Cognitive Services](https://azure.microsoft.com/services/cognitive-services?WT.mc_id=textmood_twilioblog-github-bramin)
